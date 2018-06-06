@@ -444,7 +444,7 @@ class WC_Countries {
 					foreach ( $states as $state_key => $state_value ) {
 						echo '<option value="' . esc_attr( $key ) . ':' . esc_attr( $state_key ) . '"';
 
-						if ( $selected_country === $key && $selected_state === $state_key ) {
+						if ( $selected_country == $key && $selected_state == $state_key ) {
 							echo ' selected="selected"';
 						}
 
